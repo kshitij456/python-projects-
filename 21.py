@@ -23,4 +23,4 @@ class student:
     
 s1=student(34,89)
 print(s1)
-print(s1.sum(46,76,89))
+print(s1.sum(78,56,89))

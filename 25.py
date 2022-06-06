@@ -12,3 +12,6 @@ print(f)
 print(f.readline())
 print(f.readline())
 print(f.readline())
+
+
+

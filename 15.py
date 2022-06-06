@@ -6,6 +6,6 @@ class car:
 c1=car()
 c2=car()
 c2.mileage="15kmpl"
-c2.wheels="5W"
+c2.company='"AUDI"'
 print(c1.mileage,c1.company,c1.wheels)
 print(c2.mileage,c2.company,c2.wheels)

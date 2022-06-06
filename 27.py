@@ -24,3 +24,5 @@ if search(list,n):
     print("found at",pos+1)
 else:
     print("Not found")
+
+# Binary Search

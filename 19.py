@@ -11,10 +11,12 @@ class MyEditor():
 class laptop():
     def code(self,ide):
         ide.execute()
-ide=MyEditor()
+
 lap1=laptop()
 print('"In MyEditor"')
+ide=MyEditor()
 lap1.code(ide)
+print()
 print('"In PyCharm"')
 ide=PyCharm()
 lap1.code(ide)

@@ -33,3 +33,4 @@ else:
     print("s2 is greater")
 print(s1)
 print(s2)
+print(s3)

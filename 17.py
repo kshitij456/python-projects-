@@ -3,11 +3,12 @@ class student:
         self.name=name
         self.rollno=rollno
         self.lap=self.laptop()
-        
+
     def show(self):
         print(self.name,self.rollno)
         self.lap.show()
-        
+        """lap1.show()"""
+
     class laptop:
         def __init__(self):
             self.brand="asus"
@@ -26,5 +27,11 @@ s1=student("kshitij",33)
 s2=student("ritesh",34)
 s2.lap.update()
 
+"""  Object of inner class outside outer class 
+lap1=student.laptop()
+lap1.update()
+"""
+
 s1.show()
+print()
 s2.show()

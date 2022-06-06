@@ -1,10 +1,9 @@
-a=5
-b=0
+a=int(input("enter a no. \n"))
+b=eval(input("enter the 2nd no. \n"))
+
 try:
     print('"resource opened"')
     print(a/b)
-    k=int(input("enter a no. \n"))
-    print(k)
 
 except ZeroDivisionError as e:
     print("hey,you can't divide a no. by zero \n",e)

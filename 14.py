@@ -13,6 +13,7 @@ class computer:
 c1=computer()
 c1.update()
 c2=computer()
+
 if c1.compare(c2):
     print("they are same")
 else:

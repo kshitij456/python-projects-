@@ -11,9 +11,11 @@ def search(list,n):
     return False
 
 list=[5,7,8,3,9,2]
-n=8
+n=9
 
 if search(list,n):
     print("found at",pos+1)
 else:
     print("Not found")
+
+# Linear Search
